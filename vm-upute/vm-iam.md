@@ -7,4 +7,4 @@ Ubuntu Server
 Keycloak (IAM) server.
 
 ## Postavljanje
-Instalacija putem Docker-a ili paketa.
+Instalacija putem paketa te integracija prema web aplkaciji.
