@@ -22,8 +22,7 @@ Ovaj projekt sadrži praktičnu implementaciju **Zero Trust Architecture (ZTA)**
 
 ## 📁 Sadržaj
 
-- `konfiguracije/` – konfiguracijske datoteke za svaku VM
-- `skripte/` – automatizacija deploya i podešavanja servisa
+- `skripte/` – u izradi
 - `vm-upute/` – kratke upute kako postaviti svaku VM
 - `dokumentacija/` – PDF rada, dijagrami i topologija
 
@@ -31,8 +30,7 @@ Ovaj projekt sadrži praktičnu implementaciju **Zero Trust Architecture (ZTA)**
 
 1. Pripremi devet VM-ova prema uputama u `vm-upute/`
 2. Uredi konfiguracijske fajlove prema mrežnim postavkama
-3. Pokreni `skripte/deploy.sh` za inicijalno postavljanje
-4. Koristi `monitoring-setup.sh` za postavljanje nadzora
+
 
 > Napomena: VM-ovi nisu uploadani zbog veličine. Možeš ih kreirati prema uputama.
 
