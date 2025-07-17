@@ -4,7 +4,11 @@
 Ubuntu Server
 
 ## Uloga
-Nadzor mrežnog prometa (Zeek, Suricata).
+Nadzor mrežnog prometa i perfomansi sustava.
 
 ## Postavljanje
-Instaliraj alate: zeek, suricata, tcpdump.
+Instaliraj alate: ELK stack, grafana stack
+
+Tok logova:
+    filebeat -> elasticsearch -> kibana
+    nodeexporter -> prometheus -> grafana
