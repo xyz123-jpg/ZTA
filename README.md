@@ -11,7 +11,7 @@ Ovaj projekt sadrži praktičnu implementaciju **Zero Trust Architecture (ZTA)**
 | `monitor`     | Nadgledanje prometa (npr. Zabbix, Grafana)  |
 | `pfsense`     | Firewall i segmentacija                     |
 | `database`    | MySQL/PostgreSQL server                     |
-| `app`         | Web aplikacija (npr. NGINX + backend)       |
+| `app`         | Web aplikacija                              |
 | `ldap`        | Autentifikacija (OpenLDAP)                  |
 | `iam`         | Identity & Access Management (Keycloak)     |
 | `monitoring`  | Sistemski i mrežni nadzor (Grafana, Kibana) |
