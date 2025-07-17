@@ -14,7 +14,7 @@ Ovaj projekt sadrži praktičnu implementaciju **Zero Trust Architecture (ZTA)**
 | `app`         | Web aplikacija (npr. NGINX + backend)       |
 | `ldap`        | Autentifikacija (OpenLDAP)                  |
 | `iam`         | Identity & Access Management (Keycloak)     |
-| `monitoring`  | Sistemski i mrežni nadzor                   |
+| `monitoring`  | Sistemski i mrežni nadzor (Grafana, Kibana) |
 
 ## 🧩 Arhitektura
 
