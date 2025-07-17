@@ -17,6 +17,7 @@ Ovaj projekt sadrži praktičnu implementaciju **Zero Trust Architecture (ZTA)**
 | `monitoring`  | Sistemski i mrežni nadzor (Grafana, Kibana) |
 
 ## 🧩 Arhitektura
+<img width="1023" height="603" alt="{ABA8E9E3-F08C-4DFA-8501-0656DD6FDAF4}" src="https://github.com/user-attachments/assets/375a06c8-0468-4529-b200-d0161320adce" />
 
 
 ## 📁 Sadržaj
