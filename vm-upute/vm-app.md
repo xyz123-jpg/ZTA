@@ -4,7 +4,7 @@
 Ubuntu Server
 
 ## Uloga
-Web aplikacija (npr. PHP + NGINX).
+Web aplikacija
 
 ## Postavljanje
 Instalacija: nginx, php, mysql-client.
