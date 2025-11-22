@@ -32,7 +32,4 @@ Ovaj projekt sadrži praktičnu implementaciju **Zero Trust Architecture (ZTA)**
 2. Uredi konfiguracijske fajlove prema mrežnim postavkama
 
 
-> Napomena: VM-ovi nisu uploadani zbog veličine. Možeš ih kreirati prema uputama.
-
-
 
