@@ -1,4 +1,4 @@
-# ZTA Implementacija – Diplomski Rad
+# ZTA Implementacija
 
 Ovaj projekt sadrži praktičnu implementaciju **Zero Trust Architecture (ZTA)** u simuliranom mrežnom okruženju koristeći više virtualnih mašina.
 
