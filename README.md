@@ -1,8 +1,8 @@
 # ZTA Implementacija
 
-Ovaj projekt sadrži praktičnu implementaciju **Zero Trust Architecture (ZTA)** u simuliranom mrežnom okruženju koristeći više virtualnih mašina.
+Ovaj projekt sadrži praktičnu implementaciju Zero Trust Architecture (ZTA) u simuliranom mrežnom okruženju koristeći više virtualki.
 
-##  Korištene virtualne mašine
+##  Korištene virtualke
 
 | Naziv VM-a    | Svrha                                      |
 |---------------|---------------------------------------------|
@@ -22,9 +22,9 @@ Ovaj projekt sadrži praktičnu implementaciju **Zero Trust Architecture (ZTA)**
 
 ##  Firewall PfSense
 
-U simuliranom labu, pfSense je postavljen kao perimetarski i interni firewall, u skladu s principima Zero Trust Architecture (ZTA) – nikome se ne vjeruje po defaultu, čak ni internom saobraćaju.
+U simuliranom okruženju, pfSense je postavljen kao perimetarski i interni firewall, u skladu s principima Zero Trust Architecture (ZTA), nikome ne vjeruje po defaultu, čak ni internom prometu.
 
-Firewall ima WAN interfejs za izlaz prema internetu i više LAN/VLAN interfejsa za logičku i sigurnosnu segmentaciju mreže.
+Firewall ima WAN interface izlaz prema internetu i više LAN/VLAN interface za logičku i sigurnosnu segmentaciju mreže.
 
 <img width="1280" height="800" alt="pfsense Conf" src="https://github.com/user-attachments/assets/2515185a-150f-4f55-a050-3ac28c610a79" />
 <img width="1280" height="800" alt="pfsense implmentacija segmentacije" src="https://github.com/user-attachments/assets/a50f2e40-6dee-4ad0-9885-857881b3d486" />
@@ -33,7 +33,7 @@ Firewall ima WAN interfejs za izlaz prema internetu i više LAN/VLAN interfejsa 
 
 <img width="1204" height="720" alt="diplomski block rule" src="https://github.com/user-attachments/assets/04c06e28-6358-4c30-b8af-5d73fbe4339e" />
 <img width="972" height="481" alt="image" src="https://github.com/user-attachments/assets/f242b707-3864-4558-b0b0-86b0b1f9421d" />
-ELK Stack je centralizirani sistem za prikupljanje, obradu, pretragu i vizualizaciju logova i događaja u realnom vremenu. Naziv dolazi od tri glavne komponente:
+ELK Stack je centralizirani sustav za prikupljanje, obradu, pretragu i vizualizaciju logova i događaja u realnom vremenu. Naziv dolazi od tri glavne komponente:
 
 Elasticsearch
 Logstash
@@ -50,4 +50,4 @@ Pristup aplikacijama iz user subnet-a dozvoljen je samo nakon uspješne autentik
 
 ##  Testiranje
 <img width="1280" height="800" alt="overload" src="https://github.com/user-attachments/assets/dcd8f187-1ac0-43f1-8e6c-e41f0a1b486c" />
-Prikaz metrika pod  simuliranom napadu (veći broj upita) što dovodi do većeg korištenja resursa servera koji "okidaju" alarme koji su postavljeni npr ako je korištenje veće od 80% alarm šalje mail na admin adresu i sl.
+Prikaz metrika pod simuliranim napadom (veći broj upita) što dovodi do većeg korištenja resursa servera koji "okidaju" alarme koji su postavljeni npr. ako je korištenje CPU veće od 80% alarm šalje mail na admin adresu i sl.
